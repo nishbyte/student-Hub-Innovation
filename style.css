@@ -1,0 +1,73 @@
+body {
+    background: lightblue;
+    text-align: center;
+    font-family: Arial;
+    padding: 30px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: blue;
+    margin-top: 40px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+button {
+    background: blue;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+}
+
+.project img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.team {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+}
+
+.team h3 {
+    color: blue;
+}
+
+input, textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 250px;
+}
+
+textarea {
+    height: 100px;
+}

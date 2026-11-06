@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Hub Innovation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Student Hub Innovation</h1>
+<h3>Explore Ideas and Create Innovation</h3>
+
+<button onclick="showMessage()">Explore Projects</button>
+
+<h2>About Us</h2>
+
+<p>
+Student Hub Innovation is a platform where students
+share their creative ideas and innovative projects.
+It helps students learn new skills, work together
+and explore different technologies.
+</p>
+
+<h2>Student Projects</h2>
+
+<button onclick="filterProjects('all')">All</button>
+<button onclick="filterProjects('tech')">Technology</button>
+<button onclick="filterProjects('robot')">Robotics</button>
+<button onclick="filterProjects('environment')">Environment</button>
+<button onclick="filterProjects('health')">Healthcare</button>
+
+<div class="project tech">
+
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+
+    <h3>Smart Technology</h3>
+
+    <p>
+    A project exploring smart devices
+    and modern technology.
+    </p>
+
+</div>
+
+<div class="project robot">
+
+    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e">
+
+    <h3>Smart Robot</h3>
+
+    <p>
+    A robotic project that explores
+    automation and intelligent machines.
+    </p>
+
+</div>
+
+<div class="project environment">
+
+    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e">
+
+    <h3>Green Energy</h3>
+
+    <p>
+    A project about renewable energy
+    and environmental protection.
+    </p>
+
+</div>
+
+<div class="project health">
+
+    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d">
+
+    <h3>Health Monitoring</h3>
+
+    <p>
+    A project exploring digital
+    healthcare technology.
+    </p>
+
+</div>
+
+<h2>Our Team Members</h2>
+
+<div class="team">
+
+    <h3>Project Leader</h3>
+
+    <p>
+    Manages the project and guides
+    the team members.
+    </p>
+
+</div>
+
+<div class="team">
+
+    <h3>Web Developer</h3>
+
+    <p>
+    Creates the website using HTML,
+    CSS and JavaScript.
+    </p>
+
+</div>
+
+<div class="team">
+
+    <h3>Designer</h3>
+
+    <p>
+    Designs the website layout,
+    colors and images.
+    </p>
+
+</div>
+
+<h2>Contact Us</h2>
+
+<p>Email: studenthub@example.com</p>
+<p>Phone: 9876543210</p>
+
+<input type="text" id="name"
+placeholder="Enter Your Name">
+
+<br><br>
+
+<input type="email"
+placeholder="Enter Your Email">
+
+<br><br>
+
+<textarea id="message"
+placeholder="Enter Your Message"></textarea>
+
+<br><br>
+
+<button onclick="sendMessage()">Send Message</button>
+
+<h3 id="result"></h3>
+
+<script src="script.js"></script>
+
+</body>
+</html>
